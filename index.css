@@ -6,7 +6,10 @@ body > header, footer {
     vertical-align: center;
     line-height: 150px;
 }
+
 main > section {
+    background-image: url("images/background.gif");
+}main > section {
     
     background-image: url("images/background.jpg");
 }
