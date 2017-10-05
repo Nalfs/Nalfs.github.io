@@ -8,8 +8,5 @@ body > header, footer {
 }
 
 main > section {
-    background-image: url("images/background.gif");
-}main > section {
-    
     background-image: url("images/background.jpg");
 }
