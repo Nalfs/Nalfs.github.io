@@ -9,4 +9,21 @@ body > header, footer {
 
 main > section {
     background-image: url("images/background.jpg");
+
+}
+
+#box {
+    background-color: #FFF8DC;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid #B90B2B;
+    padding: 10px;
+    text-align: center;
+
+}
+
+div > section {
+    display: flex;git 
+
 }
