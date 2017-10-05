@@ -9,7 +9,8 @@ body > header, footer {
 
 main > section {
     background-image: url("images/background.jpg");
-
+    background-size: auto;
+    background-position: center;
 }
 
 #box {
@@ -24,6 +25,6 @@ main > section {
 }
 
 div > section {
-    display: flex;git 
-
+    display: flex;
 }
+
