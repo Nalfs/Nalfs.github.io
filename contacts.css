@@ -1,6 +1,6 @@
 main > section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: bisque;
     opacity: 0.7;
     width: 400px;
@@ -18,12 +18,13 @@ main > section {
 
 h2 {
     font-size: large;
+    margin-bottom: 5px;
 }
-
 
 
 article p {
     display: block;
+    margin: 10px;
 }
 
 input {
