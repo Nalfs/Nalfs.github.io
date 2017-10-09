@@ -1,0 +1,13 @@
+input {
+    width: 80%;
+
+}
+
+textarea {
+    width: 180px;
+    height:100px;
+}
+
+.button {
+    display: inline;
+}

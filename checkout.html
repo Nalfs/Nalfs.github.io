@@ -2,11 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    link href="reset.css" rel="stylesheet">
+    <link href="reset.css" rel="stylesheet">
     <link href="index.css" rel="stylesheet">
-    <title>Title</title>
+    <link href="checkout.css" rel="stylesheet">
+    <title>Checka ut</title>
 </head>
 <body>
+
+<header>
+    <h1>Utcheckning/Kassa</h1>
+    <figure>
+        <img src="images/Logo.png" alt="">
+    </figure>
+</header>
+<nav>
+    <ul>
+        <li><a href="-" target="_blank"></a></li>
+        <li><a href="-" target="_blank"></a></li>
+        <li><a href="-" target="_blank"></a></li>
+        <li><a href="-" target="_blank"></a></li>
+    </ul>
+</nav>
+<main>
+    <section>
+
+        <div id="box">
+
+            <form>
+                <label>Förnamn</label>
+                <input type="text" name="Förnamn" required pattern="[A-Ö,a-ö]+" placeholder="Förnamn"
+                       title="Får endast innehålla bokstäver">
+
+
+                <label>Efternamn</label>
+                <input type="text" name="Efternamn" required pattern="[A-Ö,a-ö]+" placeholder="Efternamn"
+                       title="Får endast innehålla bokstäver">
+
+
+                <label>Gatuadress</label>
+                <input type="text" name="Gatuadress" required pattern="[0-9,A-Ö,a-ö\s]+"placeholder="Gatuadress"
+                       title="Får endast innehålla bokstäver och siffror">
+
+
+                <label>Postnummer</label>
+                <input type="text" name="Postnummer" required pattern="[0-9]+" placeholder="Postnummer"
+                       title="Får endast innehålla siffror">
+
+                <label>Stad</label>
+                <input type="text" name="Stad" required pattern="[A-Ö,a-ö]+" placeholder="Stad"
+                       title="Får endast innehålla bokstäver">
+
+                <label>Land</label>
+                <input type="text" name="Land" required pattern="[A-Ö,a-ö]+" placeholder="Land"
+                       title="Får endast innehålla bokstäver">
+
+                <label>Email</label>
+                <input type="email" name="Mailadress" required placeholder="Email"
+                       title="Ange en giltig emailadress">
+
+                <label>Betalningsmetod</label>
+                <input type="radio" name="Betalningsmetod" value="Standard"> Standard
+                <input type="radio" name="Betalningsmetod" value="Express"> Express
+                <input type="radio" name="Betalningsmetod" value="Hemleverans"> Hemleverans
+
+                <input class="button" type="Submit" value="Skicka">
+
+            </form>
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </section>
+</main>
+
+<footer>
+    footer
+</footer>
 
 </body>
 </html>
