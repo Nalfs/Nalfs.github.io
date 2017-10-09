@@ -2,12 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    link href="reset.css" rel="stylesheet">
+    <link href="reset.css" rel="stylesheet">
     <link href="index.css" rel="stylesheet">
     <link href="contacts.css" rel="stylesheet">
-    <title>Title</title>
+    <title>Kontakta oss</title>
 </head>
 <body>
+
+<header>
+    <h1>Kontakt</h1>
+    <figure>
+        <img src="images/Logo.png" alt="">
+    </figure>
+</header>
+<nav>
+    <ul>
+        <li><a href="-" target="_blank"></a>Chechout page</li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+
+        <div id="box">
+
+            <section>
+                <h1>Våra öppettider:</h1>
+
+                <article>
+                    Mån-fre 7-23
+                    Lör 8-22
+                    Sön 10-18
+                </article>
+            </section>
+
+            <section>
+                <h2>Skriv till oss</h2>
+
+                <article>Du som kund är oerhört viktig för oss. Därför vill vi att du ska kunna fråga oss
+                    om allt som rör våra produkter och tjänster. Vänligen fyll i formuläret nedan så kontaktar
+                    vi dig så snart vi kan med ett svar.
+                </article>
+
+            <form>
+                <label>Förnamn</label>
+                <input type="text" name="Förnamn" required pattern="[A-Ö,a-ö]+" placeholder="Förnamn"
+                       title="Får endast innehålla bokstäver">
+
+
+                <label>Efternamn</label>
+                <input type="text" name="Efternamn" required pattern="[A-Ö,a-ö]+" placeholder="Efternamn"
+                       title="Får endast innehålla bokstäver">
+
+                <label>Email</label>
+                <input type="email" name="Mailadress" required placeholder="Email"
+                       title="Ange en giltig emailadress">
+
+
+                <label>Kommentar</label>
+                <textarea name="Kommentar" required minlength="10" maxlength="400"
+                          placeholder="Skriv dina kommentarer här"
+                          title="Minst antal tecken 10, max antal tecken 400"></textarea>
+
+
+                <input class="button" type="Submit" value="Skicka">
+
+            </form>
+
+            </section>
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </section>
+</main>
+
+<footer>
+    footer
+</footer>
 
 </body>
 </html>
