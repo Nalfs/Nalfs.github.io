@@ -8,8 +8,6 @@ main > section:first-of-type {
     height: auto;
     margin-left: 25%;
     margin-right: 25%;
-
-
 }
 main section section {
     display: flex;

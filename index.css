@@ -37,13 +37,7 @@ footer {
 }
 
 
-
-<<<<<<< HEAD
-  header > figure > img {
-
-=======
 header > figure > img {
->>>>>>> 6aabbca53c8b2aefb1cdca7c422b0543017ee3e6
     position: absolute;
     top: 0;
     left: 0;
@@ -51,8 +45,6 @@ header > figure > img {
 
 h1 {
     font-size: 52px;
-
-
 }
 
 h2 {
@@ -66,7 +58,6 @@ h3 {
 }
 nav > ul {
     text-align: right;
-
 }
 
 nav > ul > li {
