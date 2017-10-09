@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');
 
 body {
@@ -6,6 +7,9 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+article {
+    font-family: 'Dosis', sans-serif;
 }
 
 body > header, footer {
@@ -22,11 +26,9 @@ body > header, footer {
 
 
 header > figure > img {
-
     position: absolute;
     top: 0;
     left: 0;
-
 }
 
 h1 {
