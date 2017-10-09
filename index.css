@@ -19,14 +19,31 @@ body > header, footer {
     line-height: 150px;
 }
 
+
+
 header > figure > img {
 
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
 
 }
 
+h1 {
+    font-size: 52px;
+
+
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
 nav > ul {
     text-align: right;
 
@@ -50,28 +67,6 @@ h1 {
     color: bisque;
 }
 
-<<<<<<< HEAD
-main > section > section {
-    display: flex;
-    flex-direction: row;
-    background-color: #FFC300;
-    opacity: 0.7;
-    width: 400px;
-    height: 400px;
-    margin: 0 auto;
-    border: 1px solid #B90B2B;
-    padding: 10px;
-    text-align: center;
-    /*
-    justify-content: center;
-    background-image: url("images/background.jpg");
-    background-size: auto;
-    background-position: center; */
-}
-
-
-=======
->>>>>>> 844d9fd83f83256fdd6348350fdd4a07b9e67300
 footer > ul > li {
     display: inline-block;
     margin-left: 40px;
@@ -79,7 +74,3 @@ footer > ul > li {
     font-weight: bold;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-}
