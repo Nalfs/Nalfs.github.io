@@ -69,6 +69,7 @@ main > section > section {
     width: auto;
     height: auto;
     margin: 0 30%;
+    margin-bottom: 20px;
     border: 1px solid #B90B2B;
     padding: 10px;
     text-align: center;
