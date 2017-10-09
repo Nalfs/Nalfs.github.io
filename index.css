@@ -70,10 +70,6 @@ main > section > section {
 }
 
 
-div > section {
-    display: flex;
-}
-
 footer > ul > li {
     display: inline-block;
     margin-left: 40px;
