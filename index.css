@@ -19,14 +19,31 @@ body > header, footer {
     line-height: 150px;
 }
 
+
+
 header > figure > img {
 
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
 
 }
 
+h1 {
+    font-size: 52px;
+
+
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
 nav > ul {
     text-align: right;
 
@@ -57,7 +74,3 @@ footer > ul > li {
     font-weight: bold;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-}
