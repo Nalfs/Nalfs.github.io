@@ -12,6 +12,21 @@ article {
     font-family: 'Dosis', sans-serif;
 }
 
+
+nav > ul >li > figure > img {
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-right: 5px;
+}
+
+nav > ul >li > figure > a {
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+}
+
+
 body > header{
     display: flex;
     justify-content: center;
