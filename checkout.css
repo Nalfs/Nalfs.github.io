@@ -1,5 +1,7 @@
 main {
     margin-bottom: 46px;
+    display: flex;
+    flex-direction: row;
 }
 
 main > section > section {
@@ -22,20 +24,60 @@ main > section > section {
 }
 
 h2 {
+    font-size: large;
+}
 
+.First {
+    display: flex;
+    border: solid 3px #B90B2B;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Second {
+    border: solid 3px #B90B2B;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex:2;
+    margin-right: 25px;
 }
 
 form {
     padding: 15px;
     text-align: left;
+
 }
 
 input[type=text], input[type=email] {
-    width:60%;
+    width:80%;
     padding: 8px 12px;
     display: flex;
-    flex-direction: row;
+    justify-content: flex-start;
     border: 2px solid #B90B2B;
+    border-radius: 3px;
     margin: 3px;
 }
 
+.button {
+    display: block;
+    width: 15%;
+    color: bisque;
+    background-color: #B90B2B;
+    cursor: pointer;
+}
+
+figure img:nth-of-type(2) {
+       height: 45px;
+       width: 45px;
+   }
+
+figure:nth-of-type(3) {
+    height:60px;
+    width: 60px;
+}
+
+figure:nth-of-type(4) {
+    height:65px;
+    width:35px;
+}

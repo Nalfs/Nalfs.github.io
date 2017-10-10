@@ -22,8 +22,9 @@
 </nav>
 <main>
     <section>
-
         <section>
+
+        <section class="First">
             <h2>Fyll i dina uppgifter här</h2>
 
             <form>
@@ -57,11 +58,30 @@
                 <label>Email</label>
                 <input type="email" name="Mailadress" required placeholder="Email"
                        title="Ange en giltig emailadress">
+            </form>
 
-                <label>Betalningsmetod</label>
-                <input type="radio" name="Betalningsmetod" value="Standard"> Standard
-                <input type="radio" name="Betalningsmetod" value="Express"> Express
-                <input type="radio" name="Betalningsmetod" value="Hemleverans"> Hemleverans
+        </section>
+
+        <section class="Second">
+
+            <figure>
+                <img src="images/local_shipping_grey_192x192.png">
+            </figure>
+
+            <figure>
+                <img src="images/delivery-icon-9.png">
+            </figure>
+
+            <figure>
+                <img src="images/Door-to-door_shipping-512.png">
+            </figure>
+
+
+            <form>
+                <label>Fraktalternativ</label>
+                <input type="radio" name="Fraktalternativ" value="Standard"> Standard
+                <input type="radio" name="Fraktalternativ" value="Express"> Express
+                <input type="radio" name="Fraktalternativ" value="Hemleverans"> Hemleverans
 
                 <input class="button" type="Submit" value="Skicka">
 
@@ -70,6 +90,7 @@
 
         </section>
 
+        </section>
 
     </section>
 </main>
