@@ -19,6 +19,7 @@ section > article > div > figure > img {
 
 section > article > div > p {
     display: block;
+    overflow-wrap: break-word;
 }
 
 .wraper {
@@ -26,6 +27,8 @@ section > article > div > p {
     background-color: white;
     padding: 5px;
     margin: 10px;
+    height: 200px;
+    width: 140px;
 }
 
 
@@ -64,11 +67,12 @@ h1 {
 main > section > section {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     background-color: #FFF8DC;
     opacity: 0.7;
     width: auto;
     height: auto;
-    margin: 0 30%;
+    margin: 0 31%;
     margin-bottom: 20px;
     border: 1px solid #B90B2B;
     padding: 10px;
@@ -91,9 +95,9 @@ footer > ul > li {
 
 }
 
-
+/*
 footer {
     position: fixed;
     bottom: 0;
     text-align: center;
-}
+} */

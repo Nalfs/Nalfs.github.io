@@ -32,9 +32,12 @@ footer {
     vertical-align: center;
     line-height: 150px;
     clear: both;
+   z-index: 10;
     position: relative;
-    z-index: 10;
+
 }
+
+
 
 
 header > figure > img {
