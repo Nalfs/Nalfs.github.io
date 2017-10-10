@@ -4,6 +4,11 @@ main {
     flex-direction: row;
 }
 
+main > section > section > section > figure > img{
+    height: 20px;
+    width: 20px;
+}
+
 main > section > section {
     display: flex;
     flex-direction: row;
