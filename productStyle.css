@@ -1,6 +1,5 @@
 main > section {
     display: flex;
-    background-color: bisque;
     opacity: 0.7;
     flex-direction: row;
     border: solid 1px black;
@@ -12,14 +11,27 @@ main > section {
 }
 main > section > section {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: flex-start;
     margin: 5px;
 }
 main > section > section > figure > img {
-    width: 250px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
     margin-right: 5px;
 }
+main > section:nth-of-type(2) > section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.andraköpte {
+    text-align: center;
+    width: 100%;
+}
+
 
 
 main > section > section > article > figure > img {
@@ -38,11 +50,30 @@ main > section > section > article > figure > img {
     margin-bottom: 20%;
 }
 .Pris {
-    display: flex;
-    justify-content: flex-end;
+    display: inline-block;
     font-family: 'Dosis', cursive;
     font-style: italic;
     font-size: larger;
     margin-right: 15px;
+
+}
+.pris{
+    display: inline-block;
+    font-family: 'Dosis', cursive;
+    font-style: normal;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.wrapper {
+    text-align: center;
+    border: 1px solid;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    height: 200px;
+    width: 140px;
+}
+h5 {
 
 }
