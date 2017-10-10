@@ -1,4 +1,4 @@
-main > section:first-of-type {
+main > section {
     display: flex;
     background-color: bisque;
     opacity: 0.7;
@@ -8,6 +8,7 @@ main > section:first-of-type {
     height: auto;
     margin-left: 25%;
     margin-right: 25%;
+    margin-bottom: 46px;
 }
 main section section {
     display: flex;
@@ -18,4 +19,22 @@ main > section > section > figure > img {
     width: 250px;
     height: 200px;
     margin-right: 5px;
+}
+.produkt {
+    margin-bottom: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: larger;
+}
+.beskrivning {
+    margin-bottom: 20%;
+}
+.Pris {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Dosis', cursive;
+    font-style: italic;
+    font-size: larger;
+    margin-right: 15px;
+
 }
