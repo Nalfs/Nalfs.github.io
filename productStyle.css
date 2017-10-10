@@ -10,7 +10,7 @@ main > section {
     margin-right: 25%;
     margin-bottom: 46px;
 }
-main section section {
+main > section > section {
     display: flex;
     align-items: flex-start;
     margin: 5px;
@@ -20,6 +20,14 @@ main > section > section > figure > img {
     height: 200px;
     margin-right: 5px;
 }
+
+
+main > section > section > article > figure > img {
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+}
+
 .produkt {
     margin-bottom: 15px;
     text-decoration: underline;
