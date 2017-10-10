@@ -40,7 +40,7 @@ h2 {
     padding: 20px;
     display: flex;
     flex:2;
-    margin-right: 25px;
+
 }
 
 form {
@@ -67,17 +67,19 @@ input[type=text], input[type=email] {
     cursor: pointer;
 }
 
-figure img:nth-of-type(2) {
-       height: 45px;
-       width: 45px;
+/* figure:nth-of-type(3) {
+       height: 5px;
+       width: 5px;
    }
 
-figure:nth-of-type(3) {
-    height:60px;
-    width: 60px;
+figure:nth-of-type(4) {
+    height:15px;
+    width:15px;
 }
 
-figure:nth-of-type(4) {
-    height:65px;
-    width:35px;
+figure:nth-of-type() {
+    height:15px;
+    width:15px;
 }
+*/
+
