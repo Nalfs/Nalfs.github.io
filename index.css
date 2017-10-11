@@ -65,11 +65,12 @@ footer > ul >li a {
 
 
 footer > ul > li {
-
+    display: inline-block;
     margin-left: 40px;
     margin-right: 40px;
     font-weight: bold;
 }
+
 
 
 header > figure > img {
