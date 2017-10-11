@@ -38,6 +38,18 @@ body > header{
     line-height: 150px;
 }
 
+.searchbar {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    vertical-align: bottom;
+
+}
+
+.searchbar:focus {
+    width: 100%;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -80,8 +92,11 @@ header > figure > img {
 }
 
 h1 {
-    font-size: 52px;
+    font-size: 70px;
     font-family: 'Vollkorn', serif;
+    color: bisque;
+    width:100%;
+    text-align: center;
 }
 
 h2 {
@@ -116,11 +131,6 @@ nav > ul > li {
 
 }
 
-h1 {
-    font-size: 70px;
-    font-family: 'Vollkorn', serif;
-    color: bisque;
-}
 
 
 
