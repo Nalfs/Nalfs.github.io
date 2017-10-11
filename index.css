@@ -39,12 +39,20 @@ body > header{
 }
 
 .searchbar {
-    width: 30px;
-    display: flex;
-    justify-content: center;
-    vertical-align: bottom;
+    width: 256px;
+    position: absolute ;
+
+    align-content: center;
+    border: 5px solid #000000;
+    background-color: bisque;
+    background-image: url("images/searchicon.png");
+    background-repeat: no-repeat;
+    background-size: 26px;
+    padding: 12px 20px 12px 40px;
 
 }
+
+
 
 .searchbar:focus {
     width: 100%;
