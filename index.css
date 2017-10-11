@@ -25,6 +25,9 @@ nav > ul >li > figure > a {
     color: white;
     vertical-align: middle;
 }
+nav > ul > li:hover {
+    background-color: #3e8e41;
+}
 
 
 body > header{
@@ -82,7 +85,13 @@ footer > ul > li {
     margin-right: 40px;
     font-weight: bold;
 }
+footer > ul > li {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: bold;
 
+}
 
 
 header > figure > a {
