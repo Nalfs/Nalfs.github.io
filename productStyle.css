@@ -82,7 +82,7 @@ main > section > section > a > article > figure > img {
     width: 140px;
 }
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #FF5733;
     font-family: 'Dosis', sans-serif;
     border: none;
     color: white;
@@ -160,14 +160,14 @@ main > section > section > a > article > figure > img {
     float: left;
 }
 .dropdown:hover {
-    background-color: #3e8e41;
+    background-color: #FF5733;
 }
 
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #4CAF50;
+    background-color: #C70039;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -191,7 +191,7 @@ main > section > section > a > article > figure > img {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #FF5733;
 }
 .menyikon {
     height: 25px;
