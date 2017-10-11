@@ -48,7 +48,15 @@ body {
     float: right;
 }
 
-section > article > div > figure > img {
+section > article >  div > figure > a > img {
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+
+
+}
+
+section > article >  div > figure > img {
     height: 100px;
     width: 100px;
     margin: 2px;
