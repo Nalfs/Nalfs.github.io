@@ -8,12 +8,51 @@ body {
     background-size: cover;
 }
 
+.buy {
+    height: 25px;
+    background-color: #cfcfd2;
+    width: 100%;
+    margin: 2px 0px;
+}
 
+.styck {
+    width: 25px;
+    height: 25px;
+    border-right: 1px solid grey;
+    text-align: center;
+    vertical-align: center;
+    line-height: 25px;
+    float: left;
+
+}
+
+.numbers{
+    float: left;
+    width: 25px;
+    height: 19px;
+    line-height: 25px;
+    vertical-align: center;
+}
+
+.buttons {
+    background-image: linear-gradient(#581845,#900c3f);
+    border: none;
+    color: white;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+}
 
 section > article > div > figure > img {
     height: 100px;
     width: 100px;
     margin: 2px;
+
 
 }
 
