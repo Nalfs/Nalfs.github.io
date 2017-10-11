@@ -24,6 +24,7 @@ nav > ul >li > figure > a {
     text-decoration: none;
     color: white;
     vertical-align: middle;
+    font-family: 'Dosis', sans-serif;
 }
 nav > ul > li:hover {
     background-color: #3e8e41;
