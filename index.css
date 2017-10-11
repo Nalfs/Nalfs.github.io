@@ -85,7 +85,7 @@ footer > ul > li {
 
 
 
-header > figure > img {
+header > figure > a {
     position: absolute;
     top: 0;
     left: 0;
