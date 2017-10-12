@@ -149,3 +149,6 @@ footer > ul > li {
 }
 
 
+@media  (max-width: 768px){
+    body {background-color: lightgreen}
+}
