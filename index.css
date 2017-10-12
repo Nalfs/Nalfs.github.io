@@ -41,7 +41,7 @@ body > header{
     line-height: 150px;
 }
 
-.searchbar {
+.searchdiv {
     width: 25%;
     height: auto;
     display: flex;
@@ -59,6 +59,17 @@ body > header{
     padding: 0;
     margin: 0;
 }
+.searchbar {
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 25px;
+    background-color: bisque;
+    background-image: url("images/searchicon.png");
+    background-size: 26px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 
 
 
