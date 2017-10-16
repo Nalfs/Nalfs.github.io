@@ -168,19 +168,35 @@ nav > ul > li {
 
 
 @media (min-width: 480px) and (max-width: 767px) {
-    main > section > section {
-        width: 80%;
-    }
-    header, footer {
-        display: flex;
-        flex-direction: column-reverse;
 
+    header >  figure > a{
+
+        visibility: hidden;
+    }
+    header > div {
+        visibility: hidden;
     }
     main {
         width: 100vw;
     }
 
-    body{
-        background: none;
+
+    header {
+        width: 100%;
     }
+
+    main > section > section > section > article > div {
+        display: flex;
+        flex-direction: column;
+    }
+    main > section > section {
+        flex-wrap:nowrap;
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        width: auto;
+        align-content: center;
+        align-items: center;
+    }
+
 }
