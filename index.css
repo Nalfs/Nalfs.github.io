@@ -42,19 +42,35 @@ body > header{
     line-height: 150px;
 }
 
-.searchbar {
-    width: 256px;
-    position: absolute ;
+.searchdiv {
+    width: 25%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-self: flex-end;
 
-    align-content: center;
-    border: 5px solid #000000;
-    background-color: bisque;
-    background-image: url("images/searchicon.png");
-    background-repeat: no-repeat;
-    background-size: 26px;
-    padding: 12px 20px 12px 40px;
 
 }
+.searchform {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.searchbar {
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 25px;
+    background-color: bisque;
+    background-image: url("images/searchicon.png");
+    background-size: 26px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 
 
 
