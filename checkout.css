@@ -4,6 +4,7 @@ main {
     flex-direction: row;
     margin-left: 25%;
     margin-right: 25%;
+
 }
 
 main > section > section > section > figure > img{
@@ -46,24 +47,25 @@ h2 {
     text-align: center;
 }
 
+form {
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
 .First {
-    display: flex;
-    flex-direction: column;
     border: solid 3px #B90B2B;
     border-radius: 5px;
-    padding: 10px;
+    padding: 20px;
     margin-right: 10px;
-    margin-left: 1px;
+
 }
 
 .Second {
     border: solid 3px #B90B2B;
     border-radius: 5px;
-    padding: 10px;
-    display: block;
-    flex:2;
-    width: 100%;
-
+    padding: 20px;
 }
 
 
