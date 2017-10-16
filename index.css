@@ -258,6 +258,10 @@ nav > ul > li {
 
 @media (min-width: 375px) and (max-width: 667px){
 
+    h1 {
+        font-size: 37px;
+    }
+
     header >  figure > a{
 
         visibility: hidden;
@@ -347,6 +351,9 @@ nav > ul > li {
 
 
 @media (min-width: 320px) and (max-width: 568px){
+    h1 {
+        font-size: 37px;
+    }
 
     header >  figure > a{
 
@@ -431,6 +438,9 @@ nav > ul > li {
 }
 
 @media (min-width: 360px) and (max-width: 640px){
+    h1 {
+        font-size: 37px;
+    }
 
     header >  figure > a{
 
