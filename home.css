@@ -69,6 +69,7 @@ section > article > div > p {
     overflow-wrap: break-word;
 }
 
+
 .wraper {
     border: 1px solid;
     background-color: white;
@@ -115,8 +116,10 @@ h1 {
 
 main > section > section {
     display: flex;
+    flex-wrap:wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items:stretch;
     background-color: rgba(255,248,220,0.7);
     width: 700px;
     height: auto;
@@ -131,6 +134,7 @@ main > section > section {
     background-size: auto;
     background-position: center; */
 }
+
 
 
 
