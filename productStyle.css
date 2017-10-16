@@ -201,14 +201,22 @@ main > section > section > a > article > figure > img {
     margin-right: 5px;
 }
 @media (min-width: 480px) and (max-width: 767px) {
-    
+.buttonlink {
+    margin-left: 25%;
+}
 }
 @media (min-width: 375px) and (max-width: 667px) {
-
+    .buttonlink {
+        margin-left: 25%;
+    }
 }
 @media (min-width: 320px) and (max-width: 568px){
-
+    .buttonlink {
+        margin-left: 25%;
+    }
 }
 @media (min-width: 360px) and (max-width: 640px) {
-
+    .buttonlink {
+        margin-left: 12%;
+    }
 }
