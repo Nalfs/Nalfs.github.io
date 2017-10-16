@@ -86,8 +86,6 @@ footer {
     height: 150px;
     background-color: #B90B2B;
     color: white;
-   /* vertical-align: top;
-    line-height: 150px;*/
     clear: both;
      z-index: 10;
     position: relative;
@@ -182,5 +180,30 @@ nav > ul > li {
 
     body{
         background: none;
+    }
+    .logo {
+        visibility: hidden;
+    }
+    .storprodukt > img {
+        width: 125px;
+        height: 125px;
+
+    }
+    footer{
+     height: auto;
+    }
+    footer > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    footer > ul > li {
+        padding-bottom: 25px;
+    }
+    .rekomendationer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
